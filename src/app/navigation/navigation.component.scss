@@ -1,0 +1,23 @@
+nav {
+  display: block;
+
+}
+
+
+nav .nav-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+  width: 400px;
+  margin: 0 auto;
+}
+
+nav .nav-container a {
+  padding: 10px;
+  color: #6E634E;
+  text-decoration: none;
+}
+
+nav .nav-container a:hover {
+  text-decoration: underline;
+}
